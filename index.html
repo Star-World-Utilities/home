@@ -85,6 +85,27 @@ li:before {
 
 @media (max-width: 900px) {
   .container {
+  padding: 50px 100px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+li:before {
+  content: "+";
+  margin-right: 8px;
+}
+
+@media (max-width: 900px) {
+  .container {
     flex-direction: column;
   }
   .sidebar {
